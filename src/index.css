@@ -1,0 +1,97 @@
+:root{
+  --main-color: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headerContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: var(--main-color);
+  height: 12vh;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.logoContainer{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logoContainer img{
+  margin-right: 10px;
+  height: 100%;
+}
+
+.logoContainer h4{
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.menuContainer{
+  font-size: 1rem;
+}
+
+.formContainer{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputForm{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.inputForm input{
+  width: 48%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 1.3rem;
+}
+
+.formContainer div button{
+  width: 100%;
+  background: var(--main-color);
+  border: none;
+  height: 55px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.formContainer div button:hover{
+  scale: .96;
+  cursor: pointer;
+}
+
+.formContainer div{
+  margin-bottom: 30px;
+}
+
+#imgMeme{
+  width: 80%;
+  height: 50vh;
+  object-fit: scale-down;
+}
